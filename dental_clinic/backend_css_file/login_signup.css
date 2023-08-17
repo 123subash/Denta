@@ -1,0 +1,91 @@
+.container {
+
+  width: 70%;
+  height: 380px;
+  margin: 0 auto;
+  margin-top: 12vh;
+  padding: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  background-color: hsl(183, 18%, 22%);
+}
+
+.alert_danger {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.alert_success {
+  padding: 20px;
+  background-color: #e9f3ea;
+  color: blue;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+h2 {
+  color: #ffff00;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid red;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #00ff08;
+  margin-left: 55px;
+  text-align: left;
+
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 70%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.forget_password {
+  display: block;
+  font-weight: bold;
+  margin-left: 55px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+button[type="submit"] {
+  width: 75%;
+  padding: 11px;
+  font-size: 16px;
+  background-color: #0037ff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 13%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.create_account{
+  display: block;
+  color: wheat;
+  font-weight: bold;
+  margin-left: 65px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
